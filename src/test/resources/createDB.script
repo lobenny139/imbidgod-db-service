@@ -1,0 +1,9 @@
+#======== 建立資料庫 ========
+#CREATE DATABASE IF NOT EXISTS imbidgoddb DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+
+#CREATE user 'imbidgoduser'@'%' identified by 'imbidgodpass';
+#Alter user 'imbidgoduser'@'%' IDENTIFIED WITH mysql_native_password BY 'imbidgodpass'; #更新用户密码
+
+#grant all on imbidgoddb.* to 'imbidgoduser'@'%'; -- Grants all privileges to the new user on the database
+
+#mysql -uimbidgoduser -pimbidgodpass; -- login db  by imbidgoduser
