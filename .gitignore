@@ -1,0 +1,4 @@
+
+*.class
+target/test-classes/test-application.properties
+target/test-classes/createDB.script
